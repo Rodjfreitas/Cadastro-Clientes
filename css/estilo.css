@@ -47,7 +47,7 @@ table{
 }
 
 .cabecalho td{
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
 }
 
@@ -60,4 +60,9 @@ table{
 
 #btn:hover{
   cursor: pointer;
+}
+
+table tr td{
+  padding-bottom: 10px;
+  
 }
