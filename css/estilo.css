@@ -65,4 +65,9 @@ table{
 table tr td{
   padding-bottom: 10px;
   
+  
+}
+
+#state{
+  width: 100px;
 }

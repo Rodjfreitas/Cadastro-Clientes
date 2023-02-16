@@ -1,7 +1,7 @@
 let nome = document.querySelector('.name')
 let endereco = document.querySelector('.adress')
 let cidade = document.querySelector('.city')
-let estado = document.querySelector('.state')
+let estado = document.querySelector('#state')
 let nascimento = document.querySelector('.birth')
 let telefone = document.querySelector('.phone')
 let email = document.querySelector('.mail')
@@ -18,11 +18,17 @@ function verifield(n,a,c,s,b,p,e,f){
 
 }
 
+
+
 function cadastro(){
   if(verifield(nome.value.length, endereco.value.length, cidade.value.length, estado.value.length, nascimento.value.length, telefone.value.length, email.value.length, cpf.value.length)){
     alert('Existem campos que não foram preenchidos!')
   }else{
+
+
     valores.push(nome.value, endereco.value, cidade.value, estado.value, nascimento.value, telefone.value, email.value, cpf.value )    
+
+    
     
     let linha = document.createElement('tr')
 
